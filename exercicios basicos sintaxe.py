@@ -41,3 +41,11 @@ print(f"Soma dos números: {soma}")
 lista_numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 numeros_pares = [num for num in lista_numeros if num% 2 == 0]
 print(f"Números pares: {numeros_pares}")
+
+#EXERCICIO 7:
+#remover duplicatas
+
+dados_duplicados = [1,2,2,3,4,3]
+dados_sem_duplicar = list(set(dados_duplicados))
+print("dados sem duplicar: ")
+print(dados_sem_duplicar)
