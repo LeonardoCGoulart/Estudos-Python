@@ -65,3 +65,22 @@ notas = [7.5, 8.0, 10.0]
 alunos_formatados = [alunos.title() for alunos in alunos]
 notas_dict = dict(zip(alunos_formatados,notas))
 print(notas_dict)
+
+#EXERCICIO 10:
+#Atualizar valor do dicionário
+estoque ={"banana" : 1, "maça" : 3}
+estoque["banana"] += 2
+print(f"estoque: {estoque}")
+
+#EXERCICIO 11:
+#Remover valor do dicionário
+
+frutas = {"morango" : 1, "laranja" : 3, "abacaxi" : 2}
+frutas.pop("laranja")
+print(frutas)
+
+#EXERCICIO 12:
+#listar todas as chaves e valores
+pessoa = {"nome": "Lucas", "idade": 30, "cidade": "São Paulo"}
+print("chaves", list(pessoa.keys()))
+print("valores", list(pessoa.values()))
