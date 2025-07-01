@@ -49,3 +49,11 @@ dados_duplicados = [1,2,2,3,4,3]
 dados_sem_duplicar = list(set(dados_duplicados))
 print("dados sem duplicar: ")
 print(dados_sem_duplicar)
+
+#EXERCICIO 8:
+#Ordenar e inverter a lista
+valores = [3, 9, 1, 7, 2]
+valores.sort() #ordena
+valores.reverse() #inverte
+print("lista ordenada e invertida")
+print(valores)
