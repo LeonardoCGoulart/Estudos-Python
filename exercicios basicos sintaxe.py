@@ -29,3 +29,9 @@ print(f"nome formatado: {nome_formatado}")
 frase = "Python é dificil"
 nova_frase = frase.replace("dificil","fácil")
 print(nova_frase)
+
+#EXERCICIO 5:
+#manipular listas 
+lista_numeros = [10,20,30]
+soma = sum(lista_numeros)
+print(f"Soma dos números: {soma}")
