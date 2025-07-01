@@ -84,3 +84,37 @@ print(frutas)
 pessoa = {"nome": "Lucas", "idade": 30, "cidade": "São Paulo"}
 print("chaves", list(pessoa.keys()))
 print("valores", list(pessoa.values()))
+
+#EXERCICIO 12:
+#Mini Desafio com Pandas (nível iniciante) -cxPraticar a criação de um DataFrame e algumas operações básicas.
+import pandas as pd
+
+# Crie um DataFrame com os dados abaixo
+dados = {
+    "Nome": ["Ana", "Leo", "Rafael"],
+    "Idade": [21, 23, 16],
+    "Salario": [2000,50000,3600]
+}
+
+df = pd.DataFrame(dados)
+
+# 1. Mostre as 2 primeiras linhas
+# 2. Mostre a média de salário
+# 3. Filtre pessoas com salário maior que 3000
+# 4. Adicione uma nova coluna "Bonificação" com 10% do salário
+print(df)
+
+print("Mostre as 2 primeiras linhas:")
+print(df.head(2))
+
+print("media salario:")
+media_salario = df["Salario"].mean() 
+print(media_salario)
+
+print("pessoas com salario > 3000")
+maior_3000 = df[df["Salario"]>3000]
+print(maior_3000)
+
+print("nova coluna bonificacao com 10% do salario")
+df["Bonificacao"] = df["Salario"] * 0.10
+print(df)
