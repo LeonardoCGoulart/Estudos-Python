@@ -17,3 +17,9 @@ print(f"Quantidade de vogais na frase: {contador_vogais}")
 texto = "ciência de dados"
 texto_invertido = texto[::-1]
 print(f"Texto invertido: {texto_invertido}")
+
+#EXERCICIO 3:
+#Nome Formatado
+nome = "leonardo goulart"
+nome_formatado = nome.title()
+print(f"nome formatado: {nome_formatado}")
