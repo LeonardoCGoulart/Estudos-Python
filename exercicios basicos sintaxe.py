@@ -23,3 +23,9 @@ print(f"Texto invertido: {texto_invertido}")
 nome = "leonardo goulart"
 nome_formatado = nome.title()
 print(f"nome formatado: {nome_formatado}")
+
+#EXERCICIO 4:
+#substituir palavras 
+frase = "Python é dificil"
+nova_frase = frase.replace("dificil","fácil")
+print(nova_frase)
