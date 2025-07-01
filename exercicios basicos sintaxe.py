@@ -57,3 +57,11 @@ valores.sort() #ordena
 valores.reverse() #inverte
 print("lista ordenada e invertida")
 print(valores)
+
+#EXERCICIO 9:
+#Manipulação de Dicionários - Criar dicionário de notas
+alunos = ["joão", "maria", "pedro"]
+notas = [7.5, 8.0, 10.0]
+alunos_formatados = [alunos.title() for alunos in alunos]
+notas_dict = dict(zip(alunos_formatados,notas))
+print(notas_dict)
