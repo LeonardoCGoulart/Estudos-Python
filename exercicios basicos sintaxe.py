@@ -35,3 +35,9 @@ print(nova_frase)
 lista_numeros = [10,20,30]
 soma = sum(lista_numeros)
 print(f"Soma dos números: {soma}")
+
+#EXERCICIO 6:
+#filtrar apenas numeros pares
+lista_numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+numeros_pares = [num for num in lista_numeros if num% 2 == 0]
+print(f"Números pares: {numeros_pares}")
